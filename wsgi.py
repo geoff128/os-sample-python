@@ -2,7 +2,6 @@ from flask import Flask
 import random
 import asyncio
 import aiohttp
-import json
 import discord
 from discord import Game
 from discord.ext import commands
@@ -13,7 +12,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return "Dziaaaaaała!!!"
+    return "[11:25 15.07.2018] Działa"
 
 if __name__ == "__main__":
     application.run()
