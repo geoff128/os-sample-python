@@ -1,3 +1,5 @@
+gunicorn
+Flask
 discord.py
 aiohttp
 weather-api
