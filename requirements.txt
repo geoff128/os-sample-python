@@ -1,5 +1,6 @@
 gunicorn
 Flask
+setuptools
 discord.py
 aiohttp
 weather-api
