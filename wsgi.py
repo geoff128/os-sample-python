@@ -1,12 +1,4 @@
 from flask import Flask
-import random
-import asyncio
-import aiohttp
-import discord
-from discord import Game
-from discord.ext import commands
-from discord.ext.commands import Bot
-from weather import Weather, Unit
 
 application = Flask(__name__)
 
