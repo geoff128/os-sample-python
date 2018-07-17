@@ -1,3 +1,4 @@
+from flask import Flask
 import random
 import asyncio
 import aiohttp
@@ -6,6 +7,15 @@ from discord import Game
 from discord.ext import commands
 from discord.ext.commands import Bot
 from weather import Weather, Unit
+
+application = Flask(__name__)
+
+@application.route("/")
+def hello():
+    return "[11:25 15.07.2018] Działa"
+
+if __name__ == "__main__":
+    application.run()
 
 TOKEN = 'NDU5OTc1NDE2NTE0MzQ3MDA4.Dg-BFw.s7130edXTLByJAAyMdVmlIS5JI8'
 ID = '459975416514347008'
