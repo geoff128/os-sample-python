@@ -16,7 +16,7 @@ def hello():
 
 if __name__ == "__main__":
     application.run()
-
+'''
 TOKEN = 'NDU5OTc1NDE2NTE0MzQ3MDA4.Dg-BFw.s7130edXTLByJAAyMdVmlIS5JI8'
 ID = '459975416514347008'
 CLEAR_IDs = ['393837938372378629', '267343850433937408']
@@ -278,4 +278,4 @@ async def background_loop():
 client.loop.create_task(background_loop())
 
 
-client.run(TOKEN)
+client.run(TOKEN)'''
